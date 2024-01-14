@@ -57,9 +57,9 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarsExample04">
                 <ul class="navbar-nav mr-auto">
-                  <li class="nav-item ">
+                  <!-- <li class="nav-item ">
                     <a class="nav-link" href="index.html">Home</a>
-                  </li>
+                  </li> -->
                   <!-- <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
                   </li>
@@ -76,13 +76,13 @@
               </div>
             </nav>
           </div>
-          <div class="col-md-2">
+          <!-- <div class="col-md-2">
             <ul class="email text_align_right">
               <li class="d_none"><a href="Javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i></a></li>
               <li class="d_none"> <a href="Javascript:void(0)"><i class="fa fa-search" style="cursor: pointer;"
                     aria-hidden="true"></i></a> </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -98,19 +98,19 @@
           </div>
         </div>
         <div class="col-md-10 offset-md-1 ">
-          <form id="request" class="main_form">
+          <form id="request" class="main_form" action="form-process.php" method="POST">
             <div class="row">
               <div class="col-md-6 ">
-                <input class="contactus" placeholder="Full Name" type="type" name=" Name">
+                <input class="contactus" id="fullName" placeholder="Full Name" type="type" name="Name">
               </div>
               <div class="col-md-6">
-                <input class="contactus" placeholder="Email" type="type" name="Email">
+                <input class="contactus" id="email" placeholder="Email" type="type" name="Email">
               </div>
               <div class="col-md-6">
-                <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">
+                <input class="contactus" id="phoneNumber" placeholder="Phone Number" type="type" name="Phone Number">
               </div>
               <div class="col-md-6">
-                <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
+                <textarea class="textarea" id="message" placeholder="Message" type="type" Message="Name"></textarea>
               </div>
               <div class="col-md-12">
                 <button class="send_btn">Send</button>
@@ -129,14 +129,14 @@
         <div class="row">
           <div class="col-md-3 col-sm-6">
             <div class="infoma text_align_left">
-              <h3>About</h3>
-              <p class="ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedconsectetur </p>
+              <!-- <h3>About</h3>
+              <p class="ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedconsectetur </p> -->
               <ul class="social_icon">
                 <!-- <li><a href="Javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                 <li><a href="Javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                 <li><a href="Javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li> -->
-                <li><a href="https://www.instagram.com/bocalocasauceco?igsh=NjVxY3NoczE3dTlq"><i class="fa fa-instagram"
-                      aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/bocalocasauceco?igsh=NjVxY3NoczE3dTlq" target="_blank"><i
+                      class="fa fa-instagram" aria-hidden="true"></i></a></li>
               </ul>
             </div>
           </div>
