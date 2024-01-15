@@ -277,9 +277,12 @@ button {
 }
 
 .img_responsive {
-  max-width: 60%;
+  max-width: 35%;
 }
 
+.about_img {
+  max-width: 70%;
+}
 
 /**-- heading section --**/
 
@@ -457,6 +460,7 @@ ul.conta_top li a {
 
 .carousel-indicators {
   bottom: 0;
+
 }
 
 .carousel-control.right,
@@ -468,6 +472,14 @@ ul.conta_top li a {
   min-height: 350px;
   height: 100%;
   width: 100%;
+}
+
+.text-content {
+  font-size: px;
+}
+
+.board {
+  text-align: center;
 }
 
 .board .read_more {
@@ -485,6 +497,12 @@ ul.conta_top li a {
   font-weight: 600;
   text-transform: uppercase;
   line-height: 80px;
+}
+
+
+
+#carouselExampleIndicators {
+  margin: auto;
 }
 
 .carousel .icon-container {
