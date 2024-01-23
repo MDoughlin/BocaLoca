@@ -82,9 +82,10 @@ h6 {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 70px;
+  font-weight: bold;
   padding-top: 35px;
-  padding-left: 750px;
+  padding-left: 700px;
 }
 
 h2 {
