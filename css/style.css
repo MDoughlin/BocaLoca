@@ -611,6 +611,20 @@ ul.conta_top li a {
   margin: 0;
 }
 
+.video {
+  display: block;
+  margin-left: 30%;
+  /* margin-right: auto; */
+  /* width: 40%; */
+  width: 50%;
+  padding: 30px;
+}
+
+.video h2 {
+  text-align: center;
+  padding-left: 40%;
+  padding-bottom: 10%;
+}
 
 /** end about section **/
 
