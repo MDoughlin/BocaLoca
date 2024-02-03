@@ -65,7 +65,7 @@ a {
 }
 
 
-h1,
+/* h1, */
 h2,
 h3,
 h4,
@@ -87,6 +87,8 @@ h1 {
   padding-top: 35px;
   padding-left: 700px;
 }
+
+
 
 h2 {
   font-size: 22px;
@@ -116,7 +118,7 @@ h6 {
   box-sizing: border-box;
 }
 
-h1 a,
+/* h1 a, */
 h2 a,
 h3 a,
 h4 a,
@@ -476,6 +478,13 @@ ul.conta_top li a {
 
 }
 
+@media (min-width:480px) {
+  #carouselExampleIndicators .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 .carousel-control.right,
 .carousel-control.left {
   background-image: none;
@@ -618,13 +627,25 @@ ul.conta_top li a {
   /* width: 40%; */
   width: 50%;
   padding: 30px;
-
 }
 
 .video h2 {
   text-align: center;
   padding-left: 40%;
   padding-bottom: 10%;
+}
+
+.border {
+  border: solid black;
+  border-width: thick;
+}
+
+@media (min-width:480px) {
+  .video {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
 }
 
 /** end about section **/
@@ -982,4 +1003,13 @@ ul.conta li a:hover {
 
 .inner_page .honey_bg {
   padding-top: 90px;
+}
+
+/* Media Queries  */
+
+@media (min-width:480px) {
+  h1 {
+    text-align: center;
+    /* font-size: 56px; */
+  }
 }
