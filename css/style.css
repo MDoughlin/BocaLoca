@@ -169,6 +169,7 @@ a,
 
 img {
   max-width: 100%;
+  /* min-width: 1280px; */
   height: auto;
 }
 
@@ -231,6 +232,7 @@ button {
 
 .titlepage {
   padding-bottom: 60px;
+  flex: 1;
 }
 
 .titlepage h2 {
@@ -284,10 +286,17 @@ button {
 
 .img_responsive {
   max-width: 35%;
+  flex: 1;
 }
 
 .about_img {
   max-width: 70%;
+}
+
+.index_img {
+  flex: 1
+    /* height: 500px;
+  width: auto; */
 }
 
 /**-- heading section --**/
@@ -1013,3 +1022,27 @@ ul.conta li a:hover {
     /* font-size: 56px; */
   }
 }
+
+
+@media (max-width: 767px) {
+  .d_flex {
+    flex-direction: column;
+  }
+
+  .titlepage,
+  .index_img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {}
+}
+
+
+
+/* @media (min-width: 480px) {
+  .img_responsive_bottles {
+    width: 75%;
+  }
+} */
