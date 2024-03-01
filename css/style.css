@@ -467,15 +467,20 @@ ul.conta_top li a {
   color: #000;
 }
 
+.tagline {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 
 /** end header **/
 
 
 /** banner section **/
 
-.slider_main {
+/* .slider_main {
   padding-top: 12%;
-}
+} */
 
 .relative {
   left: 0;
@@ -530,6 +535,7 @@ ul.conta_top li a {
 
 #carouselExampleIndicators {
   margin: auto;
+  padding-top: 30px;
 }
 
 .carousel .icon-container {
